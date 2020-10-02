@@ -1,0 +1,103 @@
+﻿<config>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0Backup']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT1']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT2']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT3']"></remove>
+    
+    <insertAfter xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='probTemplate0.5to1.0']">
+	
+	<!-- A19 loot distribution
+		https://docs.google.com/spreadsheets/d/1QdvwJZQG8RxbQi-G0fQPx5Kr3pEddBcJK2kYy86OpPk -->
+	<lootprobtemplate name="ProbT0">
+		<loot level="0,11" prob="0.65"/>
+		<loot level="12,24" prob="0.32"/>
+		<loot level="25,35" prob="0.1"/>
+		<loot level="36,999999" prob="0"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT0Backup">
+		<loot level="0,7" prob="0.55"/>
+		<loot level="8,14" prob="0.39"/>
+		<loot level="15,21" prob="0.15"/>
+		<loot level="22,,999999" prob="0"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT1">
+		<loot level="0,1" prob="0.05"/>
+		<loot level="2,3" prob="0.11"/>
+		<loot level="4,5" prob="0.2"/>
+		<loot level="6,7" prob="0.27"/>
+		<loot level="8,9" prob="0.29"/>
+		<loot level="10,12" prob="0.31"/>
+		<loot level="13,14" prob="0.33"/>
+		<loot level="15,21" prob="0.35"/>
+		<loot level="22,24" prob="0.37"/>
+		<loot level="25,26" prob="0.39"/>
+		<loot level="27,28" prob="0.41"/>
+		<loot level="29,36" prob="0.43"/>
+		<loot level="37,38" prob="0.45"/>
+		<loot level="39,40" prob="0.47"/>
+		<loot level="41,48" prob="0.48"/>
+		<loot level="49,50" prob="0.51"/>
+		<loot level="51,52" prob="0.53"/>
+		<loot level="53,55" prob="0.55"/>
+		<loot level="56,57" prob="0.57"/>
+		<loot level="58,60" prob="0.6"/>
+		<loot level="61,62" prob="0.62"/>
+		<loot level="63,64" prob="0.64"/>
+		<loot level="65,67" prob="0.66"/>
+		<loot level="68,69" prob="0.69"/>
+		<loot level="70,72" prob="0.71"/>
+		<loot level="73,74" prob="0.56"/>
+		<loot level="75,76" prob="0.58"/>
+		<loot level="77,86" prob="0.49"/>
+		<loot level="87,136" prob="0.4"/>
+		<loot level="137,999999" prob="0.3"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT2">
+		<loot level="0,6" prob="0.05"/>
+		<loot level="7,8" prob="0.1"/>
+		<loot level="9,11" prob="0.13"/>
+		<loot level="12,13" prob="0.15"/>
+		<loot level="14,15" prob="0.19"/>
+		<loot level="16,17" prob="0.21"/>
+		<loot level="18,19" prob="0.25"/>
+		<loot level="20,22" prob="0.3"/>
+		<loot level="23,25" prob="0.35"/>
+		<loot level="26,27" prob="0.4"/>
+		<loot level="28,29" prob="0.45"/>
+		<loot level="30,31" prob="0.51"/>
+		<loot level="32,33" prob="0.55"/>
+		<loot level="34,35" prob="0.59"/>
+		<loot level="36,37" prob="0.63"/>
+		<loot level="38,39" prob="0.67"/>
+		<loot level="40,41" prob="0.71"/>
+		<loot level="42,46" prob="0.60"/>
+		<loot level="47,52" prob="0.52"/>
+		<loot level="53,999999" prob="0.43"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT3">
+		<loot level="0,2" prob="0.01"/>
+		<loot level="3,4" prob="0.1"/>
+		<loot level="5,6" prob="0.15"/>
+		<loot level="7,8" prob="0.2"/>
+		<loot level="9,10" prob="0.26"/>
+		<loot level="11,12" prob="0.3"/>
+		<loot level="13,14" prob="0.31"/>
+		<loot level="15,16" prob="0.35"/>
+		<loot level="17,22" prob="0.38"/>
+		<loot level="23,24" prob="0.42"/>
+		<loot level="25,30" prob="0.48"/>
+		<loot level="31,38" prob="0.58"/>
+		<loot level="39,40" prob="0.62"/>
+		<loot level="41,42" prob="0.66"/>
+		<loot level="43,48" prob="0.60"/>
+		<loot level="49,54" prob="0.49"/>
+		<loot level="55,72" prob="0.42"/>
+		<loot level="73,999999" prob="0.4"/>
+	</lootprobtemplate>
+	</insertAfter>
+</config>

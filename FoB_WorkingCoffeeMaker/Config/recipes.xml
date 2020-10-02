@@ -1,0 +1,45 @@
+﻿<fob>
+    <append xpath="/recipes">
+        <recipe name="fob_drinkJarEspresso" count="1" craft_area="fob_coffeeMaker" craft_time = "10">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="3"/>
+        </recipe>
+        <recipe name="fob_drinkJarDoppio" count="1" craft_area="fob_coffeeMaker" craft_time = "15">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="6"/>
+        </recipe>
+        <recipe name="fob_drinkJarTripplo" count="1" craft_area="fob_coffeeMaker" craft_time = "20">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="8"/>
+        </recipe>
+        <recipe name="fob_drinkJarRistretto" count="1" craft_area="fob_coffeeMaker" craft_time = "25">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="15"/>
+        </recipe>
+        <recipe name="fob_drinkJarLungo" count="1" craft_area="fob_coffeeMaker" craft_time = "20">
+        	<ingredient name="drinkJarBoiledWater" count="2"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="5"/>
+        </recipe>
+        <recipe name="fob_drinkJarFredo" count="1" craft_area="fob_coffeeMaker" craft_time = "35">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="3"/>
+        	<ingredient name="resourceSnowBall" count="1"/>
+        </recipe>
+        <recipe name="fob_drinkJarIrish" count="1" craft_area="fob_coffeeMaker" craft_time = "45">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="3"/>
+        </recipe>
+        <recipe name="fob_drinkJarCorreto" count="1" craft_area="fob_coffeeMaker" craft_time = "30">
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="drinkJarGrainAlcohol" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="4"/>
+        </recipe>
+        <recipe name="fob_drinkJarRaf" count="1" craft_area="fob_coffeeMaker" craft_time = "60">
+        	<ingredient name="foodHoney" count="1"/>
+        	<ingredient name="drinkJarBoiledWater" count="1"/>
+        	<ingredient name="resourceCropCoffeeBeans" count="4"/>
+        </recipe>
+    </append>
+</fob>

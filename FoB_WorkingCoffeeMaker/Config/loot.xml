@@ -1,0 +1,14 @@
+﻿<fob>
+    <append xpath="/lootcontainers/lootcontainer[@id='118']">
+        <item name="fob_coffeeMakerSchematic" prob=".33" count="0,1"/>
+        <item name="fob_drinkJarEspresso" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarDoppio" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarTripplo" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarRistretto" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarLungo" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarFredo" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarIrish" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarCorreto" prob=".5" count="1,2"/>
+        <item name="fob_drinkJarRaf" prob=".5" count="1,2"/>
+    </append>
+</fob>

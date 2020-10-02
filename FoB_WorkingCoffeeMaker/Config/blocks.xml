@@ -1,0 +1,46 @@
+﻿<fob>
+    <append xpath="/blocks">
+		<block name="fob_coffeeMaker">
+			<property name="Extends" value="cementMixer"/>
+			<property name="UnlockedBy" value="perkAdvancedEngineering,fob_coffeeMakerSchematic"/>
+			<property name="Material" value="Mmetal_weak"/>
+			<property name="MaxDamage" value="100"/>
+			<property name="Model" value="Entities/Appliances/coffeeMakerPrefab"/>
+			<property name="Stacknumber" value="1"/>
+        	<property name="HeatMapStrength" value="0.2"/>
+        	<property name="HeatMapTime" value="50"/>
+        	<property name="HeatMapFrequency" value="10"/>
+
+        	<property name="WorkstationIcon" value="fob_coffeemaker"/>
+        	<property name="CraftActionName" value="lblContextActionСMix"/>
+        	<property name="CraftIcon" value="fob_coffeemaker"/>
+        	<property name="OpenSound" value="open_cooler"/>
+        	<property name="CloseSound" value="close_cooler"/>
+        	<property name="CraftSound" value="cement_mixer_start_click"/>
+        	<property name="CraftCompleteSound" value="cement_mixer_complete"/>
+			<property name="WorkstationJournalTip" value="fob_coffeeMakerTip"/>
+
+        	<property class="RepairItems">
+        		<property name="resourceForgedIron" value="1"/>
+        		<property name="resourceSpring" value="1"/>
+        		<property name="resourceMechanicalParts" value="2"/>
+        		<property name="resourceElectricParts" value="3"/>
+        	</property>
+        	<drop event="Harvest" name="resourceScrapIron" count="1" tag="allHarvest"/>
+        	<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+        	<drop event="Harvest" name="resourceForgedIron" count="1" tag="salvageHarvest"/>
+        	<drop event="Harvest" name="resourceSpring" count="1" tag="salvageHarvest"/>
+        	<drop event="Harvest" name="resourceMechanicalParts" count="1,2" tag="salvageHarvest"/>
+        	<drop event="Harvest" name="resourceElectricParts" count="1,2" tag="salvageHarvest"/>
+        	<drop event="Harvest" name="resourceScrapIron" count="1,5" tag="salvageHarvest"/>
+        	<drop event="Destroy" name="resourceScrapIron" count="2" prob="1"/>
+			<property name="DescriptionKey" value="coffeeMakerDesc"/>
+        	<property name="EconomicValue" value="1000"/>
+        	<property name="Group" value="Decor/Miscellaneous"/>
+		</block>
+
+		<block name="fob_CoffeeMakerBroken">
+			<property name="Extends" value="cntCoffeeMaker"/>
+		</block>
+    </append>
+</fob>

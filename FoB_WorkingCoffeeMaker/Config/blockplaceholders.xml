@@ -1,0 +1,8 @@
+﻿<fob>
+    <append xpath="/blockplaceholders">
+        <placeholder name="cntCoffeeMaker">
+            <block name="fob_CoffeeMakerBroken" prob=".66"/>
+            <block name="fob_coffeeMaker" prob=".33"/>
+        </placeholder>
+    </append>
+</fob>

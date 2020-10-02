@@ -1,0 +1,31 @@
+﻿<config>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT0Backup']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT1']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT2']"></remove>
+    <remove xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='ProbT3']"></remove>
+    
+    <insertAfter xpath="/lootcontainers/lootprobtemplates/lootprobtemplate[@name='probTemplate0.5to1.0']">
+	
+
+	<lootprobtemplate name="ProbT0">
+		<loot level="0,999999" prob="0.75"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT0Backup">
+		<loot level="0,999999" prob="0.75"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT1">
+		<loot level="0,999999" prob="1.25"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT2">
+		<loot level="0,999999" prob="1"/>
+	</lootprobtemplate>
+
+	<lootprobtemplate name="ProbT3">
+		<loot level="0,999999" prob="0.5"/>
+	</lootprobtemplate>
+	</insertAfter>
+</config>

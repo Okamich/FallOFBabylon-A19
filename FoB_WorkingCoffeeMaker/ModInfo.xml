@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Working Coffee Maker" />
+		<Description value="Coffee maker - make coffee!" />
+		<Author value="Okami" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Traders" />
+		<Description value="Traders trade weapons with mods" />
+		<Author value="Okami" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

@@ -3,10 +3,10 @@
         <item name="fob_coffeeMakerSchematic">
         	<property name="Extends" value="schematicNoQualityMaster"/>
         	<property name="CreativeMode" value="Player"/>
-        	<property name="CustomIcon" value="coffeMaker"/>
-        	<property name="Unlocks" value="coffeMaker"/>
+        	<property name="CustomIcon" value="fob_coffeeMaker"/>
+        	<property name="Unlocks" value="fob_coffeeMaker"/>
         	<effect_group tiered="false">
-        		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="coffeMaker" operation="set" value="1"/>
+        		<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="fob_coffeeMaker" operation="set" value="1"/>
         		<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
         	</effect_group>
         </item>

@@ -1,77 +1,173 @@
 ﻿<fob>
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsMeleeT0-1']">
-			<item name="meleeWpnBladeT1HuntingKnife" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,4"/>
-			<item name="meleeWpnClubT1BaseballBat" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,4"/>
-			<item name="meleeWpnSpearT1IronSpear" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,4"/>
-			<item name="meleeWpnSledgeT1IronSledgehammer" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,4"/>
-			<item name="meleeWpnKnucklesT1IronKnuckles" quality="1,4"/>
-			<item name="meleeWpnBatonT2StunBaton" mods="knockback" mod_chance=".5" quality="1,4"/>
+        <append xpath="/traders/trader_item_groups/trader_item_group[@name='bandanaAll']">
+			<item name="apparelBandana" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+
+        </append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='suitAll']">
+			<item name="apparelSuitPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSuitJacket" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSuitDressShoes" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsMeleeT2']">
-			<item name="meleeWpnBladeT3Machete" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,3"/>
-			<item name="meleeWpnClubT3SteelClub" mods="damage,durability,health,shaft,fire" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="meleeWpnSpearT3SteelSpear" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,3"/>
-			<item name="meleeWpnSledgeT3SteelSledgehammer" mods="damage,durability,health,shaft,fire" mod_chance=".50" quality="1,3"/>
-			<item name="meleeWpnKnucklesT3SteelKnuckles" quality="1,3"/>
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='pantsAll']">
+			<item name="apparelDenimPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelArmyPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT1']">
-			<item name="gunHandgunT1Pistol" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,4"/>
-			<item name="gunShotgunT1DoubleBarrel" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,4"/>
-			<item name="gunMGT1AK47" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,4"/>
-			<item name="gunRifleT1HuntingRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,4"/>
-			<item name="gunBowT1WoodenBow" prob="0.7" quality="1,4"/>
-			<item name="gunBowT1IronCrossbow" prob="0.7" quality="1,4"/>
-			<item name="gunBotT1JunkSledge" prob="0.7" quality="1,4"/>
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='skirtsAll']">
+			<item name="apparelSkirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT2']">
-			<item name="gunShotgunT2PumpShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,3"/>
-			<item name="gunMGT2TacticalAR" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,3"/>
-			<item name="gunRifleT2MarksmanRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,3"/>
-			<item name="gunHandgunT2Magnum44" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunBowT3CompoundBow" mods="velocity" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunBowT3CompoundCrossbow" mods="velocity" mod_chance=".50" prob="0.7" quality="1,3"/>
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='apparelDenimShortsPantsAll']">
+			<item name="apparelDenimShortsPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT3']">
-			<item name="gunHandgunT3SMG5" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunMGT3M60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="1,3"/>
-			<item name="gunHandgunT2Magnum44" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunHandgunT3DesertVulture" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunShotgunT3AutoShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunRifleT3SniperRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="gunExplosivesT3RocketLauncher" quality="1,3"/>
-			<!-- <item name="gunBotT3JunkDrone" prob="0.7" quality="1,3"/> -->
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='pufferCoatAll']">
+			<item name="apparelCoatPufferCoat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='weaponsGunsT3QL5']">
-			<item name="gunHandgunT3SMG5" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="2,5"/>
-			<item name="gunMGT3M60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" quality="2,5"/>
-			<item name="gunHandgunT2Magnum44" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="2,5"/>
-			<item name="gunHandgunT3DesertVulture" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="2,5"/>
-			<item name="gunShotgunT3AutoShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="2,5"/>
-			<item name="gunRifleT3SniperRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger" mod_chance=".50" prob="0.7" quality="2,5"/>
-			<item name="gunExplosivesT3RocketLauncher" quality="2,5"/>
-			<!-- <item name="gunBotT3JunkDrone" prob="0.7" quality="2,5"/> -->
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='shirtLongAll']">
+			<item name="apparelLongShirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelArmyShirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='rareTools']">
-			<item name="meleeToolAxeT3Chainsaw" mods="fuel,durability" mod_chance=".5" quality="1,3"/>
-			<item name="meleeToolPickT3Auger" mods="fuel,durability" mod_chance=".5" quality="1,3"/>
-			<item name="meleeToolPickT2SteelPickaxe" mods="damage,durability,health,damageDirt,damageStone,damageIron" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="meleeToolAxeT2SteelAxe" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="meleeToolShovelT2SteelShovel" mods="damage,durability,health,damageDirt" mod_chance=".50" prob="0.7" quality="1,3"/>
-			<item name="meleeWpnSledgeT3SteelSledgehammer" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".50" quality="1,3"/>
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='skullCapAll']">
+			<item name="apparelSkullCap" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
 
-		<append xpath="/traders/trader_item_groups/trader_item_group[@name='tools']">
-			<item name="meleeToolPickT1IronPickaxe" mods="damage,durability,health,damageDirt,damageStone,damageIron" mod_chance=".50" quality="1,4"/>
-			<item name="meleeToolShovelT1IronShovel" mods="damage,durability,health,damageDirt" mod_chance=".50" quality="1,4"/>
-			<item name="meleeToolAxeT1IronFireaxe" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".50" quality="1,4"/>
-			<item name="meleeWpnSledgeT1IronSledgehammer" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".50" quality="1,4"/>
-			<item name="meleeToolRepairT1ClawHammer" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".50" quality="1,4"/>
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='ballCapAll']">
+			<item name="apparelBallCap" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
 		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='pressboyCapAll']">
+			<item name="apparelPressboyCap" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='sweatshirtAll']">
+			<item name="apparelSweatshirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='apparelHoodySweatshirtAll']">
+			<item name="apparelHoodySweatshirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='tankTopAll']">
+			<item name="apparelTankTop" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='cowboyHatAll']">
+			<item name="apparelCowboyHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='overallsAll']">
+			<item name="apparelOveralls" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='hazmatGear']">
+			<item name="apparelHazmatBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatJacket" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatMask" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="resourceMilitaryFiber" count="1,6" prob="2"/>
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='hats']">
+			<item name="armorClothHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorFootballHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='clothes']">
+			<item name="apparelCowboyBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelTShirtPlain" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelWornBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelShades" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelNerdGlasses" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelSkiGoggles" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelAviatorGoggles" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorFootballHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelCoatLeatherDuster" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelFacialPiercings" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelGothBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelGothPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='warmClothes']">
+			<item name="apparelCoatLeatherDuster" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT0']">
+			<item name="armorClothHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothJacket" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT1']">
+			<item name="armorLeatherBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherHood" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMiningHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT2']">
+			<item name="armorMilitaryGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryVest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavyT0']">
+			<item name="armorScrapBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavyT1']">
+			<item name="armorIronGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			
+		</append>
+
+		<append xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavyT2']">
+			<item name="armorSteelBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSwatHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMiningHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
 		
+		</append>
+
+
 </fob>

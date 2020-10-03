@@ -1,0 +1,63 @@
+﻿<fob>
+    <append xpath="/blocks">
+		<block name="fob_testLootArmorWMods1">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="990"/>
+		</block>
+		<block name="fob_testLootArmorWMods2">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="991"/>
+		</block>
+		<block name="fob_testLootArmorWMods3">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="992"/>
+		</block>		
+		<block name="fob_testLootArmorWMods4">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="993"/>
+		</block>		
+		<block name="fob_testLootArmorWMods5">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="994"/>
+		</block>		
+		<block name="fob_testLootArmorWMods6">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="995"/>
+		</block>
+		<block name="fob_testLootArmorWMods7">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="996"/>
+		</block>
+		<block name="fob_testLootArmorWMods8">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="997"/>
+		</block>
+		<block name="fob_testLootArmorWMods9">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="998"/>
+		</block>
+		<block name="fob_testLootArmorWMods10">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="999"/>
+		</block>
+		<block name="fob_testLootArmorWMods11">
+			<property name="Extends" value="cntToaster"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="1000"/>
+		</block>
+
+
+
+    </append>
+</fob>

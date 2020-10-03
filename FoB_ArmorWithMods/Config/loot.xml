@@ -1,0 +1,241 @@
+﻿<fob>
+<!--     <append xpath="/lootgroups">
+
+    </append> -->
+    <append xpath="/lootcontainers">
+		<lootgroup name="fob_armorWModsTestLoot1" count="70">
+			<item name="apparelBandana" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSuitPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSuitJacket" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSuitDressShoes" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelDenimPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelArmyPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSkirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelDenimShortsPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelCoatPufferCoat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelLongShirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelArmyShirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSkullCap" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelBallCap" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelPressboyCap" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelSweatshirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHoodySweatshirt" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelTankTop" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelCowboyHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelOveralls" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatJacket" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="apparelHazmatMask" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5"/>
+			<item name="resourceMilitaryFiber" count="1,6" prob="2"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot2" count="70">
+			<item name="armorClothHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorFootballHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelCowboyBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelTShirtPlain" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelWornBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelShades" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelNerdGlasses" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelSkiGoggles" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelAviatorGoggles" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorFootballHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelCoatLeatherDuster" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelFacialPiercings" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelGothBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="apparelGothPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothJacket" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorClothGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherPants" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorLeatherHood" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMiningHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMilitaryVest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorScrapHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorIronChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelBoots" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelLegs" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelChest" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSteelGloves" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorSwatHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+			<item name="armorMiningHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth,falldamage,ammo" mod_chance=".5" quality="1,6"/>
+		
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot3" count="70">
+
+			<item name="meleeWpnBladeT1HuntingKnife" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnClubT1BaseballBat" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnSpearT1IronSpear" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnSledgeT1IronSledgehammer" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnKnucklesT1IronKnuckles" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnBatonT2StunBaton" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+
+			<item name="meleeWpnBladeT3Machete" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnClubT3SteelClub" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="meleeWpnSpearT3SteelSpear" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammer" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnKnucklesT3SteelKnuckles" mods="damage,durability,health,shaft,fire,specialDamage,knockback" mod_chance=".5" quality="1,6"/>
+
+			<item name="gunHandgunT1Pistol" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunShotgunT1DoubleBarrel" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunMGT1AK47" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunRifleT1HuntingRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunBowT1WoodenBow" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,velocity" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunBowT1IronCrossbow" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,velocity" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunBotT1JunkSledge" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+
+			<item name="gunShotgunT2PumpShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunMGT2TacticalAR" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunRifleT2MarksmanRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunHandgunT2Magnum44" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunBowT3CompoundBow" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,velocity" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunBowT3CompoundCrossbow" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,velocity" mod_chance=".5" prob="0.7" quality="1,6"/>
+
+			<item name="gunHandgunT3SMG5" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunMGT3M60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+			<item name="gunHandgunT2Magnum44" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunHandgunT3DesertVulture" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunShotgunT3AutoShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunRifleT3SniperRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="gunExplosivesT3RocketLauncher" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="1,6"/>
+
+			<item name="gunHandgunT3SMG5" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="2,5"/>
+			<item name="gunMGT3M60" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="2,5"/>
+			<item name="gunHandgunT2Magnum44" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="2,5"/>
+			<item name="gunHandgunT3DesertVulture" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="2,5"/>
+			<item name="gunShotgunT3AutoShotgun" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="2,5"/>
+			<item name="gunRifleT3SniperRifle" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" prob="0.7" quality="2,5"/>
+			<item name="gunExplosivesT3RocketLauncher" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance=".5" quality="2,5"/>
+
+			<item name="meleeToolAxeT3Chainsaw" mods="fuel,durability,damage,durability,health,fire,damageWood" mod_chance=".5" quality="1,6"/>
+			<item name="meleeToolPickT3Auger" mods="fuel,durability,damage,durability,health,fire,damageDirt,damageStone,damageIron," mod_chance=".5" quality="1,6"/>
+			<item name="meleeToolPickT2SteelPickaxe" mods="damage,durability,health,damageDirt,damageStone,damageIron" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="meleeToolAxeT2SteelAxe" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="meleeToolShovelT2SteelShovel" mods="damage,durability,health,damageDirt" mod_chance=".5" prob="0.7" quality="1,6"/>
+			<item name="meleeWpnSledgeT3SteelSledgehammer" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".5" quality="1,6"/>
+
+			<item name="meleeToolPickT1IronPickaxe" mods="damage,durability,health,damageDirt,damageStone,damageIron" mod_chance=".5" quality="1,6"/>
+			<item name="meleeToolShovelT1IronShovel" mods="damage,durability,health,damageDirt" mod_chance=".5" quality="1,6"/>
+			<item name="meleeToolAxeT1IronFireaxe" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".5" quality="1,6"/>
+			<item name="meleeWpnSledgeT1IronSledgehammer" mods="damage,durability,health,fire,damageDirt,damageStone,damageIron,damageWood" mod_chance=".5" quality="1,6"/>
+
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot4" count="70">
+			<item name="gunShotgunT1DoubleBarrel" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance="0.25" prob="0.3" quality="1,6"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot5" count="70">
+			<item name="gunShotgunT1DoubleBarrel" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance="0.5" prob="0.7" quality="1,6"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot6" count="70">
+			<item name="gunShotgunT1DoubleBarrel" mods="barrelAttachments,sideAttachments,smallTopAttachments,scope,trigger,magazine,grips,accuracy,crippling" mod_chance="1" prob="2" quality="1,6"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot7" count="70">
+			
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot8" count="70">
+			
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot9" count="70">
+
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot10" count="70">
+			<item name="armorClothHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth" mod_chance=".025"/>
+
+			<item name="armorFootballHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth" mod_chance=".025"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTestLoot11" count="70">
+			<item name="armorClothHat" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth" mod_chance=".0013"/>
+
+			<item name="armorFootballHelmet" mods="waterPurifier,rare,misc,modArmorHelmetLight,resistance,thermal,temperature,movement,carryweight,stealth" mod_chance=".0013"/>
+		</lootgroup>
+
+
+
+
+
+		<lootgroup name="fob_armorWModsTest1" count="70">
+			<item group="fob_armorWModsTestLoot1"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest2" count="70">
+			<item group="fob_armorWModsTestLoot2"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest3" count="70">
+			<item group="fob_armorWModsTestLoot3"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest4" count="70">
+			<item group="fob_armorWModsTestLoot4"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest5" count="70">
+			<item group="fob_armorWModsTestLoot5"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest6" count="70">
+			<item group="fob_armorWModsTestLoot6"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest7" count="70">
+			<item group="fob_armorWModsTestLoot7"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest8" count="70">
+			<item group="fob_armorWModsTestLoot8"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest9" count="70">
+			<item group="fob_armorWModsTestLoot9"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest10" count="70">
+			<item group="fob_armorWModsTestLoot10"/>
+		</lootgroup>
+		<lootgroup name="fob_armorWModsTest11" count="70">
+			<item group="fob_armorWModsTestLoot11"/>
+		</lootgroup>
+		<lootcontainer id="990" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest1"/>
+		</lootcontainer>
+		<lootcontainer id="991" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest2"/>
+		</lootcontainer>
+		<lootcontainer id="992" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest3"/>
+		</lootcontainer>
+		<lootcontainer id="993" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest4"/>
+		</lootcontainer>
+		<lootcontainer id="994" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest5"/>
+		</lootcontainer>
+		<lootcontainer id="995" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest6"/>
+		</lootcontainer>
+		<lootcontainer id="996" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest7"/>
+		</lootcontainer>
+		<lootcontainer id="997" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest8"/>
+		</lootcontainer>
+		<lootcontainer id="998" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest9"/>
+		</lootcontainer>
+		<lootcontainer id="999" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest10"/>
+		</lootcontainer>
+		<lootcontainer id="1000" size="8,9" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" open_time=".2" loot_quality_template="qualBaseTemplate">
+			<item group="fob_armorWModsTest11"/>
+		</lootcontainer>
+    </append>
+</fob>

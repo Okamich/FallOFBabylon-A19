@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Lootable BROKEN Vending Machines Mod" />
+		<Description value="Broken vending machines become loot containers instead of just blocks" />
+		<Author value="GreatWhiteOwl, Okami" />
+		<Version value="1,0" />
+		<Website value="" />
+	</ModInfo>
+</xml>

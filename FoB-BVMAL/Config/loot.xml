@@ -1,0 +1,10 @@
+﻿<configs>
+	<append xpath="/lootcontainers">
+		<!-- vending machine -->
+		<lootcontainer id="199" count="6,13" size="5,2" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" loot_quality_template="qualBaseTemplate">
+			<item group="storeLootFood" count="2"/>
+			<item group="foodCandy" count="1" prob="0.07"/>
+			<item name="casinoCoin" count="1,60" prob="0.07"/>
+		</lootcontainer>
+	</append>
+</configs>

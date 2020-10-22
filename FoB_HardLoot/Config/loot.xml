@@ -20,7 +20,7 @@
 		<loot level="0,7" prob="0.55"/>
 		<loot level="8,14" prob="0.39"/>
 		<loot level="15,21" prob="0.15"/>
-		<loot level="22,,999999" prob="0"/>
+		<loot level="22,999999" prob="0"/>
 	</lootprobtemplate>
 
 	<lootprobtemplate name="ProbT1">

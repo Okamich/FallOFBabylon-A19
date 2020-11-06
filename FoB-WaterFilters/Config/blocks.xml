@@ -39,7 +39,7 @@
 			<property name="PlantGrowing.FertileLevel" value="1"/>
         	<property name="PlantGrowing.Next" value="fob_waterAutoFilter2"/>
 			<property name="DescriptionKey" value="fob_waterAutoFilter1Desc"/>
-			<property name="PickupJournalEntry" value="fob_WAFTip"/>
+			<property name="PickupJournalEntry" value="fob_WFMTip"/>
         	<property name="Group" value="Food/Cooking"/>	
         	<drop event="Destroy" name="fob_waterAutoFilter" count="1"/>
         </block>
@@ -65,5 +65,58 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="Group" value="Decor/Miscellaneous"/>
         </block>
+	
+        <block name="fob_stoneWaterFilter1">
+        	<!-- <property name="Extends" value="fob_autoGrowingMaster"/> -->
+        	<property name="CreativeMode" value="Player"/>
+			<property name="Material" value="Mplants"/>
+			<property name="TintColor" value="99,144,99"/>
+			<property name="CustomIcon" value="farmPlotBlock"/> <property name="CustomIconTint" value="639063"/>
+			<property name="Stacknumber" value="1"/>
+        	<property name="Shape" value="New"/>
+			<property name="Model" value="farm_plot"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="ImposterExchange" value="imposterBlock" param1="2"/>
+        	<property name="Class" value="PlantGrowing"/>
+			<property name="Texture" value="47,84,84,84,84,84"/>
+			<property name="UseGlobalUV" value="Global"/>
+        	<property name="PlantGrowing.GrowthRate" value="0.5"/> <!-- 6min standart-->
+			<property name="PlantGrowing.FertileLevel" value="1"/>
+        	<property name="PlantGrowing.Next" value="fob_stoneWaterFilter2"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+        	<property name="HarvestOverdamage" value="false"/>
+			<property name="DescriptionKey" value="fob_stoneWaterFilter1Desc"/>
+			<property name="PickupJournalEntry" value="fob_WFMTip"/>
+        	<property name="Group" value="Food/Cooking"/>	
+        	<drop event="Destroy" name="fob_stoneWaterFilter" count="1"/>
+			<property name="EconomicValue" value="12"/>
+        	<property name="EconomicBundleSize" value="5"/>
+        	<property name="PickupJournalEntry" value="farmingTip"/>
+        	<property name="FilterTags" value="foutdoor,fcrops"/>
+        	<property name="SortOrder1" value="a090"/>
+        	<property name="SortOrder2" value="0002"/>
+        </block>
+        <block name="fob_stoneWaterFilter2">
+        	<property name="CreativeMode" value="Player"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="TintColor" value="142,206,142"/>
+			<property name="CustomIcon" value="cntBarrelPlasticSingle00"/> <property name="CustomIconTint" value="8ECE8E"/>
+			<property name="Material" value="Mplants"/>
+			<property name="Model" value="Entities/Industrial/barrelPlasticPrefab"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="201"/>
+			<property name="Stacknumber" value="1"/>
+        	<property name="FilterTags" value="floot,fdecor,fother,ffurniture"/>
+        	<drop event="Destroy" name="fob_stoneWaterFilter2" count="1"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="DescriptionKey" value="fob_stoneWaterFilter2Desc"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+        </block>	
 	</append>
 </fob>

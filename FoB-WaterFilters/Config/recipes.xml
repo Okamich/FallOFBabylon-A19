@@ -22,5 +22,32 @@
         	<ingredient name="fob_waterAutoFilter2" count="1"/>
         	<ingredient name="fob_resourceWAFFilters" count="3"/>
         </recipe>
+
+        <recipe name="fob_stoneWaterFilter" count="1" craft_area="workbench" craft_time = "60" tags="workbenchCrafting">
+        	<ingredient name="resourceRockSmall" count="10"/>
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourceScrapPolymers" count="10"/>
+			<ingredient name="resourceClayLump" count="50"/>
+        </recipe>
+        <recipe name="fob_stoneWaterFilter" count="1" craft_area="workbench" craft_time = "60" tags="workbenchCrafting">
+        	<ingredient name="fob_stoneWaterFilter2" count="1"/>
+			<ingredient name="fob_resourceCoalFilter" count="1"/>
+        </recipe>
+        <recipe name="fob_resourceCoalFilter" count="1" craft_area="workbench" craft_time = "20" tags="workbenchCrafting">
+        	<ingredient name="resourceCobblestones" count="25"/>
+			<ingredient name="resourceCoal" count="25"/>
+			<ingredient name="resourceCrushedSand" count="25"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="25"/>
+        </recipe>
+		<recipe name="fob_stoneWaterFilter" count="1" craft_time = "180">
+        	<ingredient name="fob_stoneWaterFilter2" count="1"/>
+			<ingredient name="fob_resourceCoalFilter" count="1"/>
+        </recipe>
+        <recipe name="fob_resourceCoalFilter" count="1" craft_time = "60">
+        	<ingredient name="resourceCobblestones" count="25"/>
+			<ingredient name="resourceCoal" count="25"/>
+			<ingredient name="resourceCrushedSand" count="25"/>
+			<ingredient name="resourcePotassiumNitratePowder" count="25"/>
+        </recipe>
     </append>
 </fob>

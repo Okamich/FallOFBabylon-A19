@@ -1,0 +1,26 @@
+﻿<fob>
+    <append xpath="/recipes">
+        <recipe name="fob_waterFilterPlayer" count="5" craft_time = "20">
+        	<ingredient name="resourceCropCottonPlant" count="5"/>
+        	<ingredient name="resourceCloth" count="2"/>
+        	<ingredient name="resourceCoal" count="1"/>
+        </recipe>
+        <recipe name="fob_drinkJarEmptyWFilter" count="1"  craft_time = "10">
+        	<ingredient name="drinkJarEmpty" count="1"/>
+        	<ingredient name="fob_waterFilterPlayer" count="1"/>
+        </recipe>
+        <recipe name="fob_drinkJarEmptyWFilter" count="1"  craft_time = "5">
+        	<ingredient name="drinkJarEmpty" count="1"/>
+        	<ingredient name="fob_waterFilter" count="1"/>
+        </recipe>
+
+        <recipe name="fob_waterAutoFilter" count="1" craft_area="workbench" craft_time = "30" tags="workbenchCrafting">
+        	<ingredient name="fob_waterAutoFilter2" count="1"/>
+        	<ingredient name="fob_resourceWAFFilters" count="3"/>
+        </recipe>
+        <recipe name="fob_waterAutoFilter" count="1" craft_time = "180">
+        	<ingredient name="fob_waterAutoFilter2" count="1"/>
+        	<ingredient name="fob_resourceWAFFilters" count="3"/>
+        </recipe>
+    </append>
+</fob>

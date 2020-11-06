@@ -1,0 +1,34 @@
+﻿<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='cupboard']">
+        <item name="fob_waterFilter" prob="0.45"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='medicine']">
+        <item name="fob_waterFilter"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='survivalMedical']">
+        <item name="fob_waterFilter"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='sportingGoods']">
+        <item name="fob_waterFilter"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='airdropMedicine']">
+        <item name="fob_waterFilter" count="1,20" prob="0.2"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='labEquipment']">
+        <item name="fob_waterFilter" count="1,20" prob="0.2"/>
+	</append>
+		
+	<append xpath="/lootcontainers/lootgroup[@name='groupToolsT0']">
+        <item name="fob_waterFilterPlayer"/>
+	</append>
+	<append xpath="/lootcontainers/lootgroup[@name='backpacks/survival']">
+        <item name="fob_waterFilterPlayer"/>
+        <item name="fob_waterFilter" prob="0.075"/>
+	</append>
+	<append xpath="/lootcontainers">
+		<!-- Auto Water Filter -->
+		<lootcontainer id="200" count="5" size="5,1" sound_open="UseActions/open_safe" sound_close="UseActions/close_safe" loot_quality_template="qualBaseTemplate">
+			<item name="drinkJarBoiledWater" count="10"/>
+		</lootcontainer>
+	</append>
+</configs>

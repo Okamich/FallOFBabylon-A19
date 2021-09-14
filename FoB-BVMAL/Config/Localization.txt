@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,latam,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese,spanish
+fob_BrokenVendingMachine,blocks,Container,,,Broken Vending Machine,,Beschädigter Verkaufsautomat,Máquina expendedora rota,Distributeur automatique en panne,Distributore automatico rotto,壊れた自動販売機,망가진 자판가,Zepsuty automat sprzedający,Máquina de Vendas Quebrada,Сломанный торговый автомат,Kırık Otomat,损坏的自动贩卖机,壞的自動販賣機,Máquina expendedora rota
+

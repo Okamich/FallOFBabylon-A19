@@ -1,6 +1,9 @@
 ﻿<fob>
-	<append xpath="/blocks/block[@name='cntVendingMachine2Broken']">
-		<property name="Class" value="Loot"/>
-		<property name="LootList" value="199"/>
+	<append xpath="/blocks">
+		<block name="fob_BrokenVendingMachine">
+			<property name="Extends" value="cntVendingMachine2Broken"/>
+			<property name="Class" value="Loot"/>
+			<property name="LootList" value="199"/>
+		</block>
 	</append>
 </fob>

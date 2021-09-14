@@ -1,0 +1,10 @@
+﻿<fob>
+	<!--<append xpath="/blockplaceholders">
+		<placeholder name="cntVendingMachine2Broken">
+			<block name="fob_BrokenVendingMachine" prob="1"/>
+		</placeholder>
+	</append>-->
+	<insertAfter xpath="blockplaceholders/placeholder[@name='cntVendingMachine2RandomLootHelper']/block[@name='cntVendingMachine2Broken']">
+		<block name="fob_BrokenVendingMachine" prob=".33"/>
+    </insertAfter>
+</fob>
